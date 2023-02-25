@@ -4,6 +4,7 @@
     --text-color-primary: #F7F7F7;;
     --text-color-secondary: #D8D7D7;
     --main-text-color: #121212;
+    --border-header-bottom: #f7f7f733;
     
 
 }
@@ -13,7 +14,7 @@
     font-family: 'DM+Sans', sans-serif;
     font-size: 16px;
 
-    background-color: var(--background-color-body-primary);
+    background-color: var(--background-color-body-primaryy);
     color: var(--main-text-color);
 
     margin: 0 auto;
@@ -36,27 +37,123 @@ a {
 
 }
 
+.header {
+    position: relative;
 
-.container {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    line-height: 1.2em;
+
+    background-color: var(--background-color-body-secondary);
+    border-bottom: 0.5px solid var(--border-header-bottom);
+    max-width: 100%;
+
+
+}
+
+.header-section {
     width: 100%;
+    padding: 20px;
+
+    background-color: var(--background-color-body-secondary);
 
     margin: 0 auto;
-
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 60px;
-    padding-bottom: 60px; 
-   
+ 
 }
 
 :focus-visible {
     outline:none;
 }
 
+.logo-name {
+    display: block;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.6em;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+
+    text-align: center;
+
+    color: var(--text-color-primary);
+
+    padding-bottom: 3px;
+}
+
+.logo-description {
+    display: block;
+
+    
+    font-size: 6px;
+    line-height: 1.3em;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: var(--text-color-secondary);
+}
+
+
+.navigation-list {
+    display: none;
+}
+
+.social-icon-list {
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .menu-button {
-    width: 28px;
-    height:28px;
+    position: absolute;
+    top:50%;
+    left: 20px;
+
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
     background-color: inherit;
     border: none;
+    
+    cursor: pointer;
+
+    transform: translateY(-50%);
+
+}
+
+
+.icon-menu {
+    fill: currentColor;
+}
+
+.cross-mobile {
+    fill: currentColor;
 }

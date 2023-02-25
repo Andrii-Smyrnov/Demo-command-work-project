@@ -18,11 +18,26 @@
 <body class="body">
     <!--Header-->
 
-    <header>
+    <header class="header">
         <section class="header-section">
+
             
-            <nav>
-                <a href="./home.html" class="logo-header"><span>Mimino</span><span>restaurant-hotel complex</span></a>
+            
+            <nav class="navigation-header">
+
+
+                <button type="button" class="menu-button">
+                    <svg width="28px" height="28px"
+                        aria-label="mobile-menu-button"
+                        aria-controls>
+                    <use href="./images/sprite.svg#icon-menu" class="icon-menu"></use>
+                    <use href="./images/sprite.svg#icon-x-close-mobile" class="cross-mobile"></use>
+                    </svg>
+                </button>
+    
+    
+                <a href="./home.html" lang="en" class="logo-name">Mimino</span><span class="logo-description">restaurant-hotel complex</span></a>
+                
 
 
                 <ul   class="navigation-list">
@@ -37,16 +52,14 @@
                         </li>
                 </ul>
 
-                <button type="button" class="menu-button">
-                    <svg>
-                    <use href="./img/sprite.svg#icon-mobile-menu"></use>
-                    <use href="./img/sprite.svg#icon-x-close-mobile"></use>
-                    </svg>
-                </button>
-
-                <div class="mobile-menu"></div>
+               
 
             </nav>
+
+
+            
+
+            <div class="mobile-menu"></div>
 
             <ul class="social-icon-list">
                 <li> <a href="#"> 
@@ -102,6 +115,6 @@
 
 
 
-    <script src="./js/mobile-menu.js"></script>
+   <!--<script src="./js/mobile-menu.js"></script>-->
 </body>
 </html>
