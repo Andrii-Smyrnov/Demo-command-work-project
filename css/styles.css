@@ -5,10 +5,8 @@
     --text-color-secondary: #D8D7D7;
     --main-text-color: #121212;
     --border-header-bottom: #f7f7f733;
-    
 
 }
-
 
 .body {
     font-family: 'DM+Sans', sans-serif;
@@ -37,8 +35,13 @@ a {
 
 }
 
+
+:focus-visible {
+    outline:none;
+}
+
 .header {
-    position: relative;
+    width: 100%;
 
     font-weight: 400;
     font-size: 18px;
@@ -49,111 +52,105 @@ a {
     border-bottom: 0.5px solid var(--border-header-bottom);
     max-width: 100%;
 
-
 }
+
 
 .header-section {
-    width: 100%;
     padding: 20px;
 
-    background-color: var(--background-color-body-secondary);
-
+    
     margin: 0 auto;
- 
 }
 
-:focus-visible {
-    outline:none;
+
+.navigation-header {
+    display: flex;
+    gap: 83px;
 }
 
 .logo-name {
-    display: block;
-
+    display: flex;
+    flex-direction: column;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.6em;
     letter-spacing: 0.18em;
     text-transform: uppercase;
 
-    text-align: center;
-
+    align-items: center;
+   
     color: var(--text-color-primary);
 
-    padding-bottom: 3px;
+    gap: 3px;
 }
 
 .logo-description {
-    display: block;
-
-    
+   
     font-size: 6px;
     line-height: 1.3em;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    text-align: center;
 
     color: var(--text-color-secondary);
 }
 
 
-.navigation-list {
-    display: none;
-}
-
-.social-icon-list {
-    display: none;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .menu-button {
-    position: absolute;
-    top:50%;
-    left: 20px;
-
+    
     display: inline-flex;
     margin: 0;
     padding: 0;
-    background-color: inherit;
+    
+    background-color:grey;
     border: none;
     
     cursor: pointer;
 
-    transform: translateY(-50%);
+    
 
 }
 
 
 .icon-menu {
-    fill: currentColor;
+    fill: white;
+
 }
 
-.cross-mobile {
-    fill: currentColor;
+
+.icon-cross {
+    fill: white;
+
 }
+
+
+.menu-button .icon-cross {
+    display: none;
+}
+
+
+.menu-button.is-open .icon-cross {
+    display: block;
+    
+
+}
+
+.menu-button.is-open .icon-menu {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+    .header-section {
+        max-width: 375px;
+    }
+}
+

@@ -25,24 +25,28 @@
             
             <nav class="navigation-header">
 
-
-                <button type="button" class="menu-button">
+                <button type="button" class="menu-button"
+                aria-controls="menu-container"
+                aria-expanded="false"
+                data-menu-button>
                     <svg width="28px" height="28px"
-                        aria-label="mobile-menu-button"
-                        aria-controls>
-                    <use href="./images/sprite.svg#icon-menu" class="icon-menu"></use>
-                    <use href="./images/sprite.svg#icon-x-close-mobile" class="cross-mobile"></use>
+                    aria-label="Перемикач мобільного меню"
+                    aria-controls>
+                        <use class="icon-menu" href="./images/sprite.svg#icon-menu-03"></use>
+                        <use class="icon-cross" href="./images/sprite.svg#icon-x-close"></use>
                     </svg>
+
                 </button>
+
     
     
-                <a href="./home.html" lang="en" class="logo-name">Mimino</span><span class="logo-description">restaurant-hotel complex</span></a>
+                <a href="./index.html" lang="en" class="logo-name">Mimino</span><span class="logo-description">restaurant-hotel complex</span></a>
                 
 
 
                 <ul   class="navigation-list">
                     <li class="navigation-item" > 
-                        <a href="./home.html" class="navigation-link" >home</a>
+                        <a href="./index.html" class="navigation-link" >home</a>
                      </li>
                     <li class="navigation-item" > 
                         <a href="#" class="navigation-link" >hotel</a>
@@ -64,7 +68,7 @@
             <ul class="social-icon-list">
                 <li> <a href="#"> 
                     <svg class="social-icon">
-                    <use></use>
+                    <use href="./images/sprite.svg#icon-facebook"></use>
                     </svg> 
                      </a>
                 </li>
@@ -115,6 +119,6 @@
 
 
 
-   <!--<script src="./js/mobile-menu.js"></script>-->
+   <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
