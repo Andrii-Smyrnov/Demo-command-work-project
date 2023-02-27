@@ -5,6 +5,8 @@
     --text-color-secondary: #D8D7D7;
     --main-text-color: #121212;
     --border-header-bottom: #f7f7f733;
+    --color-icon-primary:#F6F6F6;
+
 
 }
 
@@ -41,6 +43,7 @@ a {
 }
 
 .header {
+    position: relative;
     width: 100%;
 
     font-weight: 400;
@@ -101,43 +104,56 @@ a {
     margin: 0;
     padding: 0;
     
-    background-color:grey;
+    background-color: inherit;
     border: none;
     
     cursor: pointer;
-
-    
-
 }
 
-
-.icon-menu {
-    fill: white;
-
+.icon-menu-home,
+.icon-cross-home {
+    stroke: var(--color-icon-primary);
 }
-
-
-.icon-cross {
-    fill: white;
-
-}
-
 
 .menu-button .icon-cross {
     display: none;
 }
 
-
 .menu-button.is-open .icon-cross {
     display: block;
-    
-
 }
 
 .menu-button.is-open .icon-menu {
     display: none;
 }
 
+.menu-container {
+    display: none;
+    position: fixed;
+  
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.2em;
+    text-align: start;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100px;
+   
+    
+    background-color: teal;
+    padding: 48px 40px;
+  
+}
+
+
+.menu-container.is-open {
+    display: block;
+     
+}
 
 
 
@@ -152,5 +168,7 @@ a {
     .header-section {
         max-width: 375px;
     }
+
+    
 }
 
