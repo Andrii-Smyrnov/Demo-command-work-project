@@ -250,30 +250,6 @@ a {
         display: none;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width:375px) {
     .header-section {
         max-width: 375px;
@@ -285,3 +261,18 @@ a {
     }
 }
 
+@media screen and (max-width:767px) {
+    
+    
+    .social-icon-list {
+        display: none;
+    
+    }
+
+}
+
+@media screen and (max-width:1439px) {
+    .navigation-list {
+        display: none;
+    }
+}
