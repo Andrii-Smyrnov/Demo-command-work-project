@@ -36,6 +36,11 @@
         
     }
 
+    .menu-logo {
+        width: 32px;
+        height: 32px;
+    }
+
 
     /*white-theme*/
 
@@ -58,6 +63,7 @@
     .icon-menu-wt,
     .icon-cross-wt {
         stroke: var(--main-text-color);
+        
         }
     
     
@@ -76,12 +82,15 @@
 
     .social-icon-wt {
         stroke: var(--main-text-color);
-        fill: var(--background-color-body-primary);
+        fill: var(--background-color-body-main);
         width: 24px;
         height: 24px;
     }
 
 
 
-    
+   
 }
+
+
+

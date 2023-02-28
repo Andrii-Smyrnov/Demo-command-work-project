@@ -194,6 +194,7 @@ a {
 .social-icon-mob {
     stroke: var(--color-icon-primary);
     
+    
 }
 
 
@@ -235,6 +236,7 @@ a {
 .icon-menu-wt,
 .icon-cross-wt {
     stroke: var(--main-text-color);
+    
     }
 
 
@@ -255,24 +257,25 @@ a {
         max-width: 375px;
     }
 
-    .menu-logo {
-        width: 32px;
-        height: 32px;
-    }
+    
 }
 
 @media screen and (max-width:767px) {
-    
     
     .social-icon-list {
         display: none;
     
     }
-
+ 
 }
+
 
 @media screen and (max-width:1439px) {
     .navigation-list {
+        display: none;
+    }
+
+    .navigation-list-wt {
         display: none;
     }
 }

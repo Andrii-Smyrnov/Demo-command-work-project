@@ -58,6 +58,7 @@
 .icon-menu-wt,
 .icon-cross-wt {
     stroke: var(--main-text-color);
+    fill: var(--background-color-body-main);
     }
 
 
