@@ -41,6 +41,10 @@
         height: 32px;
     }
 
+    .social-icon-list-mob {
+        display: none;
+    }
+
 
     /*white-theme*/
 

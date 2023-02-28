@@ -3,6 +3,10 @@
         display: none;
     }
 
+    .menu-container {
+        display: none;
+}
+
     .header-section {
         max-width: 1440px;
     }

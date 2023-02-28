@@ -237,6 +237,7 @@ a {
 .icon-cross-wt {
     stroke: var(--main-text-color);
     
+    
     }
 
 
@@ -251,6 +252,33 @@ a {
 .menu-button.is-open .icon-menu-wt {
         display: none;
     }
+
+
+.menu-container-wt {
+    color: var(--main-text-color);
+    background-color: #FFFFFF;
+}
+
+
+.social-icon-mob-wt {
+    stroke: var(--main-text-color);
+    fill: var(--background-color-body-main);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:375px) {
     .header-section {
