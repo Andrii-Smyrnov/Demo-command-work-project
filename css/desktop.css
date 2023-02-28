@@ -30,20 +30,26 @@
     }
 
 
-    /*.navigation-home::after
+    .navigation-item {
+        position: relative;
+    }
+
+    .navigation-home::after
      {
     content: "";
     position: absolute;
-    bottom: 0px;
-    left: 0;
-    width: 100%;
+    top: 20px;
+    left: 50%;
+    width: 4px;
     height: 4px;
 
-    background-color: teal;
+    background-color: var(--background-color-body-main);
 
-    border-radius: 4px;
+    transform: translateX(-50%);
 
-}*/
+    border-radius: 50%;
+
+}
 
     .social-icon-list {
         gap: 16px;
@@ -99,6 +105,9 @@
     color: var(--main-text-color);
 }
 
+.navigation-home-wt::after {
+    background-color: var(--main-text-color);
+}
 
 
 
