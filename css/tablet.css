@@ -41,6 +41,20 @@
         height: 32px;
     }
 
+
+
+
+    .menu-container {
+        top: 86px;
+        height: calc(100vh - 86px);
+    
+    }
+
+
+
+
+
+
     .social-icon-list-mob {
         display: none;
     }
