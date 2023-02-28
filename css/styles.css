@@ -1,6 +1,7 @@
 :root {
     --background-color-body-primary: #F7F7F7;
     --background-color-body-secondary: #121212;
+    --background-color-body-main: #FFFFFF;
     --text-color-primary: #F7F7F7;;
     --text-color-secondary: #D8D7D7;
     --main-text-color: #121212;
@@ -278,6 +279,9 @@ a {
         max-width: 375px;
     }
 
-    
+    .menu-logo {
+        width: 32px;
+        height: 32px;
+    }
 }
 
