@@ -8,7 +8,8 @@
 <symbol id="icon-twitter" viewBox="0 0 32 32"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M30.667 4a14.37 14.37 0 0 1-4.084 2.013l-.103.027a5.973 5.973 0 0 0-10.479 4.004v-.004 1.333a14.197 14.197 0 0 1-11.97-5.996l-.03-.044s-5.333 12 6.667 17.333a15.387 15.387 0 0 1-9.364 2.666l.031.001c12 6.667 26.667 0 26.667-15.333 0-.372-.037-.741-.107-1.107a10.277 10.277 0 0 0 2.758-4.822L30.668 4z"/></symbol>
 <symbol id="icon-x-close" viewBox="0 0 32 32"><path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M24 8l-16 16M8 8l16 16"></path></symbol>
 <symbol id="icon-menu" viewBox="0 0 32 32"><path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M4 16h24M4 8h24M4 24h16"></path></symbol>
-</symbol>
+<symbol id="icon-map" viewBox="0 0 26 32"><path fill="#121212" style="fill: var(--color1, #121212)" d="M25.905 13.091c0 10.182-12.952 18.909-12.952 18.909s-12.952-8.727-12.952-18.909c0-3.472 1.365-6.802 3.794-9.257s5.723-3.834 9.159-3.834c3.435 0 6.73 1.379 9.159 3.834s3.794 5.785 3.794 9.257z"></path>
+<path  d="M12.953 17.455c2.384 0 4.317-1.954 4.317-4.364s-1.933-4.364-4.317-4.364c-2.384 0-4.317 1.954-4.317 4.364s1.933 4.364 4.317 4.364z"></path>
 </symbol>
 </defs>
 </svg>
