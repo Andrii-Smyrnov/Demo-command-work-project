@@ -416,22 +416,6 @@ p {
     cursor: pointer;
 }
 
-/* .point-icon {
-    position: absolute;
-    top: 50%;
-    left:50%;
-    
-    width: 26px;
-    height: 34px;
-    fill: var(--background-footer);
-
-    transform: translate(-50%, -50%);
-    
-
-} */
-
-
-
 .country-location {
     display: inline-block;
     font-style: normal;
